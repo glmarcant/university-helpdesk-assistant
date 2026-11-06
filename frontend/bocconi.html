@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bocconi University</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <div class="logo">Bocconi</div>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Programs</a></li>
+                    <li><a href="#">Admissions</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero / Banner -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Bocconi University</h1>
+            <p>Discover our programs, opportunities, and everything you need to know to join our community.</p>
+            <button class="cta-button">Explore Programs</button>
+        </div>
+    </section>
+
+    <!-- Main content -->
+    <main>
+        <div class="container">
+            <section class="info">
+                <h2>Admissions & Regulations</h2>
+                <p>Access comprehensive information about student regulations, exams, scholarships, and admission requirements.</p>
+                <div class="feature-grid">
+                    <div class="feature-card">
+                        <h3>📋 Application</h3>
+                        <p>Simple and transparent application process</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>🎓 Scholarships</h3>
+                        <p>Generous financial aid opportunities</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>🌍 Mobility</h3>
+                        <p>International exchange programs</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="news">
+                <h2>Latest Updates</h2>
+                <ul class="news-list">
+                    <li>✨ Registration now open for the next academic year</li>
+                    <li>🌐 New Erasmus+ program launched</li>
+                    <li>💼 Early scholarship application deadline</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 Bocconi University. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a> • <a href="#">Terms of Service</a> • <a href="#">Cookie Policy</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Chatbot popup -->
+    <div id="chatbot">
+        <button id="openChat">Chat with Uni Admin</button>
+        <div id="chatWindow" class="hidden">
+            <div id="chatHeader">
+                <span>Chat with Uni Admin</span>
+                <button id="closeChat">✕</button>
+            </div>
+            <div id="chatMessages"></div>
+            <input type="text" id="userInput" placeholder="Ask your question...">
+            <button id="sendBtn">Send</button>
+        </div>
+    </div>
+
+    <script src="chatbot.js"></script>
+</body>
+</html>

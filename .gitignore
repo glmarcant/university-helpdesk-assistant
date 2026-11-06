@@ -1,0 +1,29 @@
+# Segreti
+.env
+.env.*
+!.env.example
+
+# Ambiente virtuale
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Node (se il frontend usa npm)
+node_modules/
+
+# File pesanti
+*.mp4
+*.mov
+
+# Sistema operativo / editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# macOS junk
+__MACOSX/
+._*
+.DS_Store
